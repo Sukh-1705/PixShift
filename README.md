@@ -2,6 +2,9 @@
 
 High-fidelity, local-first image conversion suite with cryptographic pixel verification, multi-threaded batch processing, and a native desktop interface.
 
+**Live Application:** [https://sukh-1705.github.io/PixShift/](https://sukh-1705.github.io/PixShift/)
+
+[![Live Demo](https://img.shields.io/badge/Live%20App-sukh--1705.github.io%2FPixShift-blue.svg)](https://sukh-1705.github.io/PixShift/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node: >=18.0.0](https://img.shields.io/badge/Node-%3E%3D18.0.0-emerald.svg)](https://nodejs.org/)
 [![Status: Production](https://img.shields.io/badge/Status-Production%20Ready-indigo.svg)](https://github.com/Sukh-1705/PixShift)
