@@ -1,0 +1,54 @@
+{
+  "name": "pixshift",
+  "version": "1.0.0",
+  "description": "Ultra-fast, local-first, lossless & high-fidelity image converter suite",
+  "main": "server/index.js",
+  "bin": {
+    "pixshift": "bin/pixshift.js",
+    "morphix": "bin/pixshift.js"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "server": "node server/index.js",
+    "start": "concurrently \"node server/index.js\" \"vite\"",
+    "test": "node tests/engine.test.js",
+    "cli": "node bin/pixshift.js"
+  },
+  "keywords": [
+    "image-converter",
+    "lossless",
+    "libvips",
+    "sharp",
+    "privacy-first",
+    "offline"
+  ],
+  "author": "Pixshift Team",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "chokidar": "^6.0.0",
+    "commander": "^15.0.0",
+    "concurrently": "^10.0.6",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "framer-motion": "^14.6.0",
+    "heic-convert": "^2.1.0",
+    "heic-decode": "^2.1.0",
+    "lucide-react": "^1.61.0",
+    "multer": "^2.5.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

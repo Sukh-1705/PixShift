@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.pixshift_data/
+*.log
+.DS_Store
+Thumbs.db
+.tempmediaStorage/
